@@ -41,7 +41,7 @@ body{
 .logo{
     height: 17vh;
     width: 150px;
-    background-color: brown;
+    background-color: rgb(4, 6, 95);
     box-shadow: 0px 3px 5px black;
     color: white;
     text-align: center;
@@ -49,13 +49,70 @@ body{
     font-size: 3em;
     text-shadow: 0px 2px 4px black;
     font-weight: 500;
+    position: relative;
+}
+.logo-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000, #fff, #000);
+    opacity: .2;
+}
+.highlight{
+    text-align: center;
+    color: rgb(216, 7, 7);
+    font-style: italic;
+}
+.head_right{
+    flex: 1;
+    text-align: right;
 }
 
-.gadget{
-
+.signin{
+    margin-top: 10px;
+}
+.signin *{
+    color: #ccc;
+    font-size: 1.2em;
+}
+.signin>a{
+    text-decoration: none;
+}
+.gadget a{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em 1em;
+    background-color: rgb(70, 75, 90);
+    margin: 10px 5px;
+    color: #ccc;
+    box-shadow: 0 2px 2px black;
+}
+.head_right a:hover{
+    color: orangered;
+}
+.hotline{
+    font-size: 2em;
+    color: #ccc;
 }
 
-
+*{
+    /* border: 1px solid green; */
+    min-height: 40px;
+    min-width: 40px;
+}
+.signin select{
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    height: 30px;
+    background: #222;
+    border-radius: 5px;
+    border: 1px solid black;
+}
 /* navbar */
 
 .navbar{
@@ -71,6 +128,7 @@ body{
 .nav-item{
     display: inline-block;
     border-left: 1px solid #333;
+    transform: skewX(-15deg);
 }
 
 .nav-link{
@@ -80,6 +138,7 @@ body{
     padding: 1em 2em;
     display: block;
     background: linear-gradient(#444, #000);
+    
 }
 .nav-link:hover{
     background: linear-gradient(#000, #333);
@@ -116,7 +175,6 @@ body{
     left: 0;
     height: 60vh;
     overflow: hidden;
-    
 }
 .carousel img{
     width: 100%;
@@ -181,11 +239,7 @@ float: right;
 
 
 
-*{
-    /* border: 1px solid green; */
-    min-height: 40px;
-    min-width: 40px;
-}
+
 /* .controller>*:hover{
     opacity: 1;
   }
