@@ -1,0 +1,35 @@
+/* header */
+#header{
+    min-height: 100px;
+}
+    .navbar{
+        list-style: none;
+    }
+        .logo h1{
+            font-size: 3rem;
+            margin-left: 1rem;
+            font-style: italic;
+            text-transform: capitalize;
+            color: var(--violet);
+        }
+        .navbar-nav{
+            margin-right: 2rem;
+            list-style: none;
+        }
+            .nav-item{
+                display: inline-block;
+            }
+                .nav-link{
+                    display: block;
+                    padding: 1em 2em;
+                    color: var(--violet);
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+                    .nav-link:hover{
+                        transform: scale(1.5);
+                        transition-duration: 1s;
+                    }
+
+/* footer */
+#footer{}
