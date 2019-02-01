@@ -35,7 +35,7 @@ body{
 /* header */
 .head_main{
     min-height: 20vh;
-    /* background-color: #282828; */
+    background-color: #282828;
 }
 
 .logo{
