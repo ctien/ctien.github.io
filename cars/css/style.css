@@ -35,11 +35,11 @@ body{
 /* header */
 .head_main{
     min-height: 20vh;
-    background-color: #282828;
+    background-color: #000;
 }
 
 .header{
-    backgrond-color: #111;
+    backgrond-color: #00000;
 }
 
 .logo{
