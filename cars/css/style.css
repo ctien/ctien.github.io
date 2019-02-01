@@ -38,6 +38,10 @@ body{
     background-color: #282828;
 }
 
+.header{
+    backgrond-color: #282828;
+}
+
 .logo{
     height: 17vh;
     width: 150px;
