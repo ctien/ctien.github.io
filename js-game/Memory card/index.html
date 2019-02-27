@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container-game{
+            width: 97%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .card{
+            position: relative;
+            width: 140px;
+            height: 200px;
+            display: inline-block;
+            margin: .25em;
+        }
+        .front, .back{
+            position: absolute;
+            width: 140px;
+            height: 200px;
+            border-radius: 5px;
+            transition: .5s;
+        }
+        .front{
+            background-color: green;
+        }
+        .back{
+            background-color: brown;
+            transform: rotateY(180deg)
+        }
+        .card:hover .front, .back{
+            backface-visibility: hidden;
+            
+        }
+        .card:hover .front{
+            transform: rotateY(180deg);
+        }
+        .card:hover .back{
+            transform: rotate(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-game">
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+        <div class="card">
+            <div class="front">front</div>
+            <div class="back">back</div>
+        </div>
+    </div>
+    
+</body>
+</html>
