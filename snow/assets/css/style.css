@@ -1,0 +1,157 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+body{
+    font-size: 100%;
+    letter-spacing: 1px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+    .col{
+        flex: 1;
+    }
+    .col-lg-1{
+        flex: 0 0 8.333333%;
+    }
+    .col-lg-2{
+        flex: 0 0 16.666666%;
+    }
+    .col-lg-3{
+        flex: 0 0 25%;
+    }
+    .col-lg-4{
+        flex: 0 0 33.333333%;
+    }
+    .col-lg-5{
+        flex: 0 0 41.666666%;
+    }
+    .col-lg-6{
+        flex: 0 0 50%;
+    }
+    .col-lg-7{
+        flex: 0 0 58.333333%;
+    }
+    .col-lg-8{
+        flex: 0 0 66.666666%;
+    }
+    .col-lg-9{
+        flex: 0 0 75%;
+    }
+    .col-lg-10{
+        flex: 0 0 83.33333%;
+    }
+    .col-lg-11{
+        flex: 0 0 91.666666%;
+    }.col-lg-12{
+        flex: 0 0 100%;
+    }
+.text{
+    font-size: 1rem;
+    color: #666;
+}
+.text-xl{
+    font-size: 3.5rem;
+}
+.text-lg{
+    font-size: 3rem;
+}
+.text-md{
+    font-size: 1.2rem;
+}
+.text-sm{
+    font-size: .8rem;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.text-white{
+    color: #fff;
+}
+.btn{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #252525;    /* #444 */
+    padding: 1.5em 2em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #252525;
+}
+.btn:hover{
+    background-color: #333;
+    border-color: #333;
+}
+.btn:active{
+    border-color: #666;
+}
+.center{
+    text-align: center;
+}
+
+.navbar{
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    margin-top: 2em;
+}
+    .navbar__brand{}
+    .navbar__nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+        .nav__item{
+        }
+            .nav__link{
+                display: block;
+                padding: 1em;
+                text-decoration: none;
+                color: #bfbfbf;
+                font-size: .8rem;
+                font-weight: bold;
+                transition: .3s
+            }
+            .nav__link:hover{
+                color: #fff;
+            }
+
+.header{
+    height: 100vh;
+    position: relative;
+}
+
+.mask{
+    background-color: rgba(12, 12, 12, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header .caption{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
