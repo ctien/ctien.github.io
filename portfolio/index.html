@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="wrapper">
-
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!-- begin:: navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <a href="#" class="navbar-brand">Phạm Công Tiên</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#my-navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -19,65 +19,87 @@
             <div id="my-navbar" class="navbar-collapse collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="#" class="nav-link">Trang chủ</a></li>
+                    <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Thông tin - nguyện vọng</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Dự án demo</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
                 </ul>
             </div>
         </nav>
+        <!-- end:: navbar -->
 
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-lg-7 p-3">
-                    <div class="p-3 bg-gray font-italic">
-                        <h2 class="text-tile text-center">
-                            Tiểu sử bản thân
-                        </h2>
-                        <div class="content">
+        <div class="ct-bg-parralax">
+            <div class="mask"></div>
+        </div>
+        <!-- begin:: header -->
+        <header class="header text-white">
+            <div class="header__inner">
+                <h1 class="text-headline">I'm Pham Cong Tien</h1>
+                <p class="text-description">
+                    I'm a FullStack Developer
+                </p>
+            </div>
+        </header>
+        <!-- end:: header -->
+
+
+        <!-- begin:: section aboutme -->
+        <section id="aboutme" class="bg-white">
+            <h2 class="text-title bg-gray p-3 text-center text-uppercase m-0">about me</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 p-3">
+                        <div class="p-3 bg-gray font-italic mb-3 ct-border-radius--5px">
+                            <div class="ct-img"></div>
+                        </div>
+                        <div class="bg-gray p-3 ct-border-radius--5px">
+                            <h4 class="font-italic">Contact Info</h4>
                             <ul class="p-3">
-                                <li><b>Phạm Công Tiên</b></li>
-                                <li>Năm sinh: 1996</li>
-                                <li>Tốt nghiệp THPT (6/2015)</li>
-                                <li>Thi lại đại học CNTT, không đậu (lần 1)</li>
-                                <li>Nhập ngũ BĐBP tỉnh Bình Định(9/2015)</li>
-                                <li>Xuất ngũ (2/2017)</li>
-                                <li>Thi lại đại học CNTT(6/2017) (lần 2)</li>
-                                <li>Học ngành du lịch tại Đại học Nông Lâm (9/2017)</li>
-                                <li>Nhận thấy bản thân không có đam mê với ngành du lịch nên quyết định từ bỏ Đại học Nông Lâm(4/2018)</li>
-                                <li>Làm việc tại Vivu Oto (4/2018 - 2/2019) với định hướng rõ ràng là để cải thiện kỹ năng giao tiếp, kỹ năng làm việc, kỹ năng tiếng Anh</li>
-                                <li>Sau gần 1 năm làm việc và rèn luyện tại Vivu Oto quay trở lại theo đuổi đam mê lập trình</li>
-                                <li>Học 1 khóa front-end tại "Học với chuyên gia" (HVCG) để lấy lại căn bản (2/2019 - 5/2019)</li>
-                                <li>Hoàn thành khoá học Front-end 1-1 tại HVCG. Tiếp tục tự học lập trình</li>
+                                <li></li>
                             </ul>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-8 p-3">
+                        <div class="p-3 bg-gray ct-border-radius--5px">
+                            <h4 class="text-title-sub text-center text-uppercase">
+                                sumary
+                            </h4>
+                            <div class="content">
+                                <ul class="p-3">
+                                    <li><b>Phạm Công Tiên</b></li>
+                                    <li>Năm sinh: 1996</li>
+                                    <li>Tốt nghiệp THPT (6/2015)</li>
+                                    <li>Thi lại đại học CNTT, không đậu (lần 1)</li>
+                                    <li>Nhập ngũ BĐBP tỉnh Bình Định(9/2015)</li>
+                                    <li>Xuất ngũ (2/2017)</li>
+                                    <li>Thi lại đại học CNTT(6/2017) (lần 2)</li>
+                                    <li>Học ngành du lịch tại Đại học Nông Lâm (9/2017)</li>
+                                    <li>Nhận thấy bản thân không có đam mê với ngành du lịch nên quyết định từ bỏ Đại học Nông Lâm(4/2018)</li>
+                                    <li>Làm việc tại Vivu Oto (4/2018 - 2/2019) với định hướng rõ ràng là để cải thiện kỹ năng giao tiếp, kỹ năng làm việc, kỹ năng tiếng Anh</li>
+                                    <li>Sau gần 1 năm làm việc và rèn luyện tại Vivu Oto quay trở lại theo đuổi đam mê lập trình</li>
+                                    <li>Học 1 khóa front-end tại "Học với chuyên gia" (HVCG) để lấy lại căn bản (2/2019 - 5/2019)</li>
+                                    <li>Hoàn thành khoá học Front-end 1-1 tại HVCG. Tiếp tục tự học lập trình</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 p-3">
-                    <div class="p-3 bg-gray font-italic mb-3">
-                        <h2 class="text-tile text-center">
-                            Nguyện vọng
-                        </h2>
-                        <ul class="p-3">
-                            <li>Theo hướng MERN Stack</li>
-                            <li>Được làm việc trong 1 môi trường năng động, sáng tạo, có mentor</li>
-                            <li>Hiểu sâu javascript, dần làm chủ được javascript</li>
-                            <li>Thử thách bản thân với công nghệ mới, phong cách lập trình mới</li>
-                            <li>Hiểu sâu về máy tính, mạng</li>
-                        </ul>
-                    </div>
-                    <div class="p-3 bg-gray font-italic mb-3">
-                        <h2 class="text-tile text-center">
-                            Nguyện vọng
-                        </h2>
-                        <ul class="p-3">
-                            <li>Theo hướng MERN Stack</li>
-                            <li>Được làm việc trong 1 môi trường năng động, sáng tạo, có mentor</li>
-                            <li>Hiểu sâu javascript, dần làm chủ được javascript</li>
-                            <li>Thử thách bản thân với công nghệ mới, phong cách lập trình mới</li>
-                            <li>Hiểu sâu về máy tính, mạng</li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
+        </section>
+        <!-- end:: section aboutme -->
+
+        <section>
+            <div class="p-3 bg-gray font-italic mb-3">
+                <h2 class="text-tile text-center">
+                    Nguyện vọng
+                </h2>
+                <ul class="p-3">
+                    <li>Theo hướng MERN Stack</li>
+                    <li>Được làm việc trong 1 môi trường năng động, sáng tạo, có mentor</li>
+                    <li>Hiểu sâu javascript, dần làm chủ được javascript</li>
+                    <li>Thử thách bản thân với công nghệ mới, phong cách lập trình mới</li>
+                    <li>Hiểu sâu về máy tính, mạng</li>
+                </ul>
             </div>
         </section>
     </div>
