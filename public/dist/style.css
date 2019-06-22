@@ -8,6 +8,15 @@ body {
   background-color: #f4f4f4;
 }
 
+.ct-contact__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ct-icon {
+  width: 12px;
+}
+
 .ct-img {
   width: 100%;
   background-color: #fff;
@@ -32,6 +41,19 @@ body {
 .ct-boxshadow {
   -webkit-box-shadow: 0 0 5px #000;
           box-shadow: 0 0 5px #000;
+}
+
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .7;
+  background-color: #030922;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .header {
@@ -67,12 +89,22 @@ body {
   color: #999;
 }
 
-.mask {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: .7;
-  background-color: #030922;
+.btn-language--vn {
+  background-color: brown;
+  color: yellow;
+}
+
+.btn-language--vn:hover {
+  color: yellow;
+}
+
+.btn-language--en {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-language--en:hover {
+  background-color: #007bff;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

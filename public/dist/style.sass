@@ -6,6 +6,12 @@ body
     background-color: #f4f4f4
 
 .ct
+    &-contact
+        &__list
+            list-style-type: none
+            padding: 0
+    &-icon
+        width: 12px
     &-img
         width: 100%
         background-color: #fff
@@ -23,6 +29,19 @@ body
         background-size: cover
     &-boxshadow
         box-shadow: 0 0 5px #000
+
+.mask
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: -1
+    opacity: .7
+    background-color: rgb(3, 9, 34)
+
+.nav
+    &-link.active
+        border-bottom: 2px solid rgba(255,255,255,.5)
+
 .header
     min-height: 98vh
     margin-bottom: 20px
@@ -38,6 +57,7 @@ body
         text-align: center
         opacity: 0
         text-shadow: 2px 2px 5px #000
+
 .text
     &-headline
         font-size: 4rem
@@ -46,10 +66,17 @@ body
         font-size: 1.5rem
     &-white--mod
         color: #999
-.mask
-    position: absolute
-    width: 100%
-    height: 100%
-    z-index: -1
-    opacity: .7
-    background-color: rgb(3, 9, 34)
+
+.btn-language
+    &--vn
+        background-color: brown
+        color: yellow
+        &:hover
+            color: yellow
+    &--en
+        background-color: #007bff
+        color: #fff
+        &:hover
+            background-color: #007bff
+            color: #fff
+        
