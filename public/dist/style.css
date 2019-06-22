@@ -10,7 +10,6 @@ body {
 
 .ct-img {
   width: 100%;
-  height: 300px;
   background-color: #fff;
 }
 
@@ -27,6 +26,12 @@ body {
   background-color: #fff;
   background-image: url("../assets/images/bg-7.jpg");
   z-index: -1;
+  background-size: cover;
+}
+
+.ct-boxshadow {
+  -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
 }
 
 .header {
@@ -38,12 +43,15 @@ body {
 
 .header__inner {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
-  width: auto;
+  width: 100%;
+  overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
+  opacity: 0;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .text-headline {
@@ -53,6 +61,10 @@ body {
 .text-description {
   font-style: italic;
   font-size: 1.5rem;
+}
+
+.text-white--mod {
+  color: #999;
 }
 
 .mask {

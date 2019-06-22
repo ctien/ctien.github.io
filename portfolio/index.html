@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../public/dist/bootstrap.min.css">
     <link rel="stylesheet" href="../public/dist/style.css">
 </head>
+
 <body>
     <div class="wrapper">
         <!-- begin:: navbar -->
@@ -18,11 +20,15 @@
             </button>
             <div id="my-navbar" class="navbar-collapse collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link">Trang chủ</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Thông tin - nguyện vọng</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Dự án demo</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
+                    <li class="nav-item"><a href="#carreer-path" class="nav-link">Carreer path</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Project demo</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <button class="btn btn-primary">My cv </button>
+                        <button class="btn btn-danger">&nbsp;</button>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -31,8 +37,9 @@
         <div class="ct-bg-parralax">
             <div class="mask"></div>
         </div>
+
         <!-- begin:: header -->
-        <header class="header text-white">
+        <header class="header text-white--mod">
             <div class="header__inner">
                 <h1 class="text-headline">I'm Pham Cong Tien</h1>
                 <p class="text-description">
@@ -44,23 +51,24 @@
 
 
         <!-- begin:: section aboutme -->
-        <section id="aboutme" class="bg-white">
-            <h2 class="text-title bg-gray p-3 text-center text-uppercase m-0">about me</h2>
+        <section id="aboutme" class="bg-gray">
+            <h2 class="text-title bg-gray p-3 text-center text-uppercase m-0 ct-boxshadow">about me</h2>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 p-3">
-                        <div class="p-3 bg-gray font-italic mb-3 ct-border-radius--5px">
-                            <div class="ct-img"></div>
+                        <div class="p-3 bg-white font-italic mb-3 ct-border-radius--5px">
+                            <div class="ct-img"><img class="d-block w-100" src="../public/assets/images/ava.jpg"
+                                    alt=""></div>
                         </div>
-                        <div class="bg-gray p-3 ct-border-radius--5px">
+                        <div class="bg-white p-3 ct-border-radius--5px">
                             <h4 class="font-italic">Contact Info</h4>
                             <ul class="p-3">
                                 <li></li>
                             </ul>
-                        </div>                    
+                        </div>
                     </div>
                     <div class="col-lg-8 p-3">
-                        <div class="p-3 bg-gray ct-border-radius--5px">
+                        <div class="p-3 bg-white ct-border-radius--5px">
                             <h4 class="text-title-sub text-center text-uppercase">
                                 sumary
                             </h4>
@@ -69,15 +77,19 @@
                                     <li><b>Phạm Công Tiên</b></li>
                                     <li>Năm sinh: 1996</li>
                                     <li>Tốt nghiệp THPT (6/2015)</li>
-                                    <li>Thi lại đại học CNTT, không đậu (lần 1)</li>
+                                    <li>Thi đại học CNTT, không đậu (lần 1)</li>
                                     <li>Nhập ngũ BĐBP tỉnh Bình Định(9/2015)</li>
                                     <li>Xuất ngũ (2/2017)</li>
                                     <li>Thi lại đại học CNTT(6/2017) (lần 2)</li>
                                     <li>Học ngành du lịch tại Đại học Nông Lâm (9/2017)</li>
-                                    <li>Nhận thấy bản thân không có đam mê với ngành du lịch nên quyết định từ bỏ Đại học Nông Lâm(4/2018)</li>
-                                    <li>Làm việc tại Vivu Oto (4/2018 - 2/2019) với định hướng rõ ràng là để cải thiện kỹ năng giao tiếp, kỹ năng làm việc, kỹ năng tiếng Anh</li>
-                                    <li>Sau gần 1 năm làm việc và rèn luyện tại Vivu Oto quay trở lại theo đuổi đam mê lập trình</li>
-                                    <li>Học 1 khóa front-end tại "Học với chuyên gia" (HVCG) để lấy lại căn bản (2/2019 - 5/2019)</li>
+                                    <li>Nhận thấy bản thân không có đam mê với ngành du lịch nên quyết định từ bỏ Đại
+                                        học Nông Lâm(4/2018)</li>
+                                    <li>Làm việc tại Vivu Oto (4/2018 - 2/2019) với định hướng rõ ràng là để cải thiện
+                                        kỹ năng giao tiếp, kỹ năng làm việc, kỹ năng tiếng Anh</li>
+                                    <li>Sau gần 1 năm làm việc và rèn luyện tại Vivu Oto quay trở lại theo đuổi đam mê
+                                        lập trình</li>
+                                    <li>Học 1 khóa front-end tại "Học với chuyên gia" (HVCG) để lấy lại căn bản (2/2019
+                                        - 5/2019)</li>
                                     <li>Hoàn thành khoá học Front-end 1-1 tại HVCG. Tiếp tục tự học lập trình</li>
                                 </ul>
                             </div>
@@ -88,20 +100,72 @@
         </section>
         <!-- end:: section aboutme -->
 
-        <section>
-            <div class="p-3 bg-gray font-italic mb-3">
-                <h2 class="text-tile text-center">
-                    Nguyện vọng
-                </h2>
-                <ul class="p-3">
-                    <li>Theo hướng MERN Stack</li>
-                    <li>Được làm việc trong 1 môi trường năng động, sáng tạo, có mentor</li>
-                    <li>Hiểu sâu javascript, dần làm chủ được javascript</li>
-                    <li>Thử thách bản thân với công nghệ mới, phong cách lập trình mới</li>
-                    <li>Hiểu sâu về máy tính, mạng</li>
-                </ul>
+        <section id="carreer-path">
+            <div class="bg-gray">
+                <h2 class="text-title bg-gray p-3 text-center text-uppercase m-0 mb-3 ct-boxshadow">carreer path</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 mb-3">
+                            <div class="bg-white p-3 ct-border-radius--5px">
+                                <h4 class="text-title-sub text-center text-uppercase">Intend</h4>
+                                <ul class="p-3">
+                                    <li>Theo hướng MERN Stack</li>
+                                    <li>Được làm việc trong 1 môi trường năng động, sáng tạo, có mentor</li>
+                                    <li>Hiểu sâu javascript, dần làm chủ được javascript</li>
+                                    <li>Thử thách bản thân với công nghệ mới, phong cách lập trình mới</li>
+                                    <li>Hiểu sâu về máy tính, mạng</li>
+                                    <li>Học tốt tiếng anh, học thêm ngoại ngữ khác (tiếng nhật)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <div class="bg-white p-3 ct-border-radius--5px">
+                                <h4 class="text-title-sub text-center text-uppercase">Intend in 2019</h4>
+                                <ul class="p-3">
+                                    <li>Có một môi trường để rèn luyện, phát triển bản thân, trau dồi kỹ năng lập trình</li>
+                                    <li>Mua được macbook để phục vụ học tập (hiện đang dùng linux và gặp rất nhiều khó khăn vì thiếu hụt phần mềm)</li>
+                                    <li>Đọc được nhiều sách hơn</li>
+                                    <li>Có một trình độ căn bản về khoa học máy tính</li>
+                                    <li>Ielts phải trên 5.0</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <!-- begin:: Skill -->
+        <section id="skill">
+            <div class="bg-white">
+                <h2 class="text-title bg-gray p-3 text-center text-uppercase m-0 mb-3 ct-boxshadow">Skill</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end:: Skill -->
+
+        <!-- begin:: Project Demo -->
+        <section id="carreer-path">
+            <div class="bg-white">
+                <h2 class="text-title bg-gray p-3 text-center text-uppercase m-0 mb-3 ct-boxshadow">project demo</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end:: Project Demo -->
+
+        
     </div>
 
 
@@ -109,6 +173,7 @@
 
     <script src="../public/dist/jquery.min.js"></script>
     <script src="../public/dist/bootstrap.bundle.min.js"></script>
-    <!-- <script src="../public/dist/cv.js"></script> -->
+    <script src="../public/dist/portfolio.js"></script>
 </body>
+
 </html>
