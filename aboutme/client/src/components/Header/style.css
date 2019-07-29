@@ -1,0 +1,20 @@
+main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	background: url(https://st.quantrimang.com/photos/image/2016/09/17/anh-3.gif);
+	background-size: contain;
+	background-position: top left;
+	background-clip: text;
+	background-color: rgb(44, 173, 196);
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 5rem;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
