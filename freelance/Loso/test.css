@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cta-slide {
+  position: relative;
+  width: 800px;
+  height: 351px;
+  border: 4px solid green;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cta-slide-container {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 175%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cta-slide-item {
+  width: 100%;
+}
+
+.cta-slide-img {
+  width: 100%;
+  display: block;
+}
+/*# sourceMappingURL=test.css.map */
