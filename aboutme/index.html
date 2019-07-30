@@ -10,6 +10,7 @@
 	<title>Ctien, Portfolio Page</title>
 	<!-- CSS Plugins -->
 	<link rel="stylesheet" href="./assets/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 	<!-- CSS Base -->
 	<link rel="stylesheet" href="./sass/main.css">
 	<!-- Setting Style -->
@@ -31,78 +32,99 @@
 	<!-- Main Site -->
 	<div class="home bg-home">
 		<!-- Navbar -->
-		<nav class="navbar">
+		<nav class="navbar d-flex">
 			<!-- Logo -->
 			<div class="navbar__brand">
 				<img src="./assets//image/logo.png" alt="" class="logo">
 			</div>
 
+			<!-- Button Menu -->
+			<!-- <button class="btn"></button> -->
+
 			<!-- Menu -->
-			<ul class="navbar__nav">
-				<li class="nav__item">
-					<a href="" class="nav__link active">
-						<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-							<path fill="currentColor"
-								d="M288 114.96L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496c0 8.84 7.16 16 16 16h149.23L192 439.19l104.11-64-60.16-119.22L384 392.75l-104.11 64L319.81 512H496c8.84 0 16-7.16 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2L288 114.96zm282.69 121.32L512 184.45V48c0-8.84-7.16-16-16-16h-64c-8.84 0-16 7.16-16 16v51.69L314.75 10.31C307.12 3.45 297.56.01 288 0s-19.1 3.41-26.7 10.27L5.31 236.28c-6.57 5.91-7.12 16.02-1.21 22.6l21.4 23.82c5.9 6.57 16.02 7.12 22.6 1.21L277.42 81.63c6.05-5.33 15.12-5.33 21.17 0L527.91 283.9c6.57 5.9 16.69 5.36 22.6-1.21l21.4-23.82c5.9-6.57 5.36-16.69-1.22-22.59z">
-							</path>
-						</svg>
-					</a>
-				</li>
-				<li class="nav__item">
-					<a href="" class="nav__link">
-						<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-							<path fill="currentColor"
-								d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z">
-							</path>
-						</svg>
-					</a>
-				</li>
-				<li class="nav__item">
-					<a href="" class="nav__link">
-						<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-							<path fill="currentColor"
-								d="M436 160c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h320c26.5 0 48-21.5 48-48v-48h20c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20v-64h20c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20v-64h20zm-228-32c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H118.4C106 384 96 375.4 96 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2z">
-							</path>
-						</svg>
-					</a>
-				</li>
-				<li class="nav__item">
-					<a href="" class="nav__link">
-						<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-							<path fill="currentColor"
-								d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z">
-							</path>
-						</svg>
-					</a>
-				</li>
-				<li class="nav__item">
-					<a href="" class="nav__link">
-						<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-							<path fill="currentColor"
-								d="M358.4 3.2L320 48 265.6 3.2a15.9 15.9 0 0 0-19.2 0L192 48 137.6 3.2a15.9 15.9 0 0 0-19.2 0L64 48 25.6 3.2C15-4.7 0 2.8 0 16v480c0 13.2 15 20.7 25.6 12.8L64 464l54.4 44.8a15.9 15.9 0 0 0 19.2 0L192 464l54.4 44.8a15.9 15.9 0 0 0 19.2 0L320 464l38.4 44.8c10.5 7.9 25.6.4 25.6-12.8V16c0-13.2-15-20.7-25.6-12.8zM320 360c0 4.4-3.6 8-8 8H72c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h240c4.4 0 8 3.6 8 8v16zm0-96c0 4.4-3.6 8-8 8H72c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h240c4.4 0 8 3.6 8 8v16zm0-96c0 4.4-3.6 8-8 8H72c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h240c4.4 0 8 3.6 8 8v16z">
-							</path>
-						</svg>
-					</a>
-				</li>
-				<li class="nav__item">
-					<a href="" class="nav__link">
-						<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
-							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-							<path fill="currentColor"
-								d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-							</path>
-						</svg>
-					</a>
-				</li>
-			</ul>
+			<div class="myNav">
+				<ul class="navbar__nav row">
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<div class="nav__link-title">home</div>
+							<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+								<path fill="currentColor"
+									d="M288 114.96L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496c0 8.84 7.16 16 16 16h149.23L192 439.19l104.11-64-60.16-119.22L384 392.75l-104.11 64L319.81 512H496c8.84 0 16-7.16 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2L288 114.96zm282.69 121.32L512 184.45V48c0-8.84-7.16-16-16-16h-64c-8.84 0-16 7.16-16 16v51.69L314.75 10.31C307.12 3.45 297.56.01 288 0s-19.1 3.41-26.7 10.27L5.31 236.28c-6.57 5.91-7.12 16.02-1.21 22.6l21.4 23.82c5.9 6.57 16.02 7.12 22.6 1.21L277.42 81.63c6.05-5.33 15.12-5.33 21.17 0L527.91 283.9c6.57 5.9 16.69 5.36 22.6-1.21l21.4-23.82c5.9-6.57 5.36-16.69-1.22-22.59z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<div class="nav__link-title">about</div>
+							<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path fill="currentColor"
+									d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<div class="nav__link-title">resume</div>
+							<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path fill="currentColor"
+									d="M436 160c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h320c26.5 0 48-21.5 48-48v-48h20c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20v-64h20c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20v-64h20zm-228-32c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H118.4C106 384 96 375.4 96 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<div class="nav__link-title">portfolio</div>
+							<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor"
+									d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<div class="nav__link-title">blog</div>
+							<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+								<path fill="currentColor"
+									d="M358.4 3.2L320 48 265.6 3.2a15.9 15.9 0 0 0-19.2 0L192 48 137.6 3.2a15.9 15.9 0 0 0-19.2 0L64 48 25.6 3.2C15-4.7 0 2.8 0 16v480c0 13.2 15 20.7 25.6 12.8L64 464l54.4 44.8a15.9 15.9 0 0 0 19.2 0L192 464l54.4 44.8a15.9 15.9 0 0 0 19.2 0L320 464l38.4 44.8c10.5 7.9 25.6.4 25.6-12.8V16c0-13.2-15-20.7-25.6-12.8zM320 360c0 4.4-3.6 8-8 8H72c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h240c4.4 0 8 3.6 8 8v16zm0-96c0 4.4-3.6 8-8 8H72c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h240c4.4 0 8 3.6 8 8v16zm0-96c0 4.4-3.6 8-8 8H72c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h240c4.4 0 8 3.6 8 8v16z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<div class="nav__link-title">contact</div>
+							<svg aria-hidden="true" focusable="false" class="nav__link-icon" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor"
+									d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+								</path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
 
 			<!-- Sound Ware -->
-
+			<a class="sound-ware" id="js-sound-ware">
+				<div class="sound-ware__lines" id="js-ware">
+					<span class="js-line"></span>
+					<span class="js-line"></span>
+					<span class="js-line"></span>
+					<span class="js-line"></span>
+					<span class="js-line"></span>
+					<span class="js-line"></span>
+				</div>
+				<p class="sound-ware__text">Sound</p>
+			</a>
 		</nav>
 
 		<div class="wrapper">
@@ -133,6 +155,14 @@
 
 	<!-- All Scriptb -->
 	<script src="https://use.fontawesome.com/29076f6b85.js"></script>
+	<script>
+		document.getElementById('js-sound-ware').addEventListener('click', function () {
+			var a = document.querySelectorAll('.js-line');
+			a.forEach(function (e) {
+				e.classList.add('anime');
+			})
+		})
+	</script>
 </body>
 
 </html>
