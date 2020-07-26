@@ -1,3 +1,3 @@
 # ctien.github.io
 Deploy something
-![](./media/cv.pdf)
+![cv](media/cv.pdf)
